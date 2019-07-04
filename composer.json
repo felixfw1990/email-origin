@@ -1,0 +1,23 @@
+{
+    "name": "felixfw/email-origin",
+    "description": "email origin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix",
+            "email": "felixfw1111@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": { "EmailOrigin\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "EmailOriginTest\\": "test/"}
+    }
+}
