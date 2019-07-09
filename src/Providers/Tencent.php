@@ -42,14 +42,14 @@ class Tencent extends Abs
                 if (strstr($tempHtml, '------------------') !== false)
                 {
                     // check last div
-                    $lastTemp = $divs->item($i+1);
+                    $lastTemp = $divs->item($i + 1);
 
                     if ($lastTemp)
                     {
                         $parent = $lastTemp->parentNode;
                         $parent->removeChild($lastTemp);
 
-                        $i--;
+                        $i --;
 
                         continue;
                     }

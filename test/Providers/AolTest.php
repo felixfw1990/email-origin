@@ -21,7 +21,7 @@ class AolTest extends Abs
     public function testGetMa()
     {
         $html = '
-        <div style="color:;font: 10pt Helvetica Neue;"><span style="font-family: Arial, Helvetica, sans-serif;">我的爱人阿伟</span>
+        <div style="color:;font: 10pt Helvetica Neue;"><span style="font-family: Arial, Helvetica, sans-serif;">我的爱人</span>
           <div>
               <span style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration-line: underline; font-style: italic; background-color: red;"><font
                   size="7">我爱你</font></span></div>
@@ -32,8 +32,8 @@ class AolTest extends Abs
               <br>
         
               <div style="font-family:helvetica,arial;font-size:10pt;color:black">-----Original Message-----<br>
-                  From: 冯伟 &lt;felixfw1111@gmail.com&gt;<br>
-                  To: achankayi &lt;achankayi@aol.com&gt;<br>
+                  From: felix &lt;felixfw1111@gmail.com&gt;<br>
+                  To: achankayi &lt;csdfsf@aol.com&gt;<br>
                   Sent: Wed, Jul 3, 2019 6:10 pm<br>
                   Subject: gmail to aol<br>
                   <br>

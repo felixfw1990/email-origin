@@ -56,7 +56,7 @@ class Proton extends Abs
      * @param \DOMDocument $dom
      * @return \DOMDocument
      */
-    private function getCleanDiv(\DOMDocument $dom):\DOMDocument
+    private function getCleanDiv(DOMDocument $dom):DOMDocument
     {
         $divs = $dom->getElementsByTagName('div');
 

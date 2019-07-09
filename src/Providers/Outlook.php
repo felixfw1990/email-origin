@@ -70,7 +70,7 @@ class Outlook extends Abs
             if (strstr($tClassName, 'divRplyFwdMsg') !== false)
             {
                 // check last div
-                $lastTemp = $divs->item($i+1);
+                $lastTemp = $divs->item($i + 1);
 
                 if ($lastTemp)
                 {

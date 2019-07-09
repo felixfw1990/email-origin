@@ -26,6 +26,8 @@ class Yandex extends Abs
     {
         $blocks = $dom->getElementsByTagName('blockquote');
 
+        if ($blocks->length === 0) { return NULL; }
+
         $temp = $blocks->item(0);
 
         //删除blockquote
