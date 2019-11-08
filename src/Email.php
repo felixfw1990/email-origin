@@ -88,9 +88,7 @@ class Email
 
         $output = $len ? $result[$len - 1] : '';
 
-        $output = $this->pro[$output] ?? $output;
-
-        return $output;
+        return $this->pro[$output] ?? $output;
     }
     
     // ------------------------------------------------------------------------------
